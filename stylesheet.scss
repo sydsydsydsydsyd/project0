@@ -37,13 +37,22 @@ table {
 /* ROUTINE */
 
 /*YOUTUBE*/
-#youtube-screenshots > img {
-  background-color: lightblue;
-}
+
   img.resize {
     max-width: 40%;
     max-height: 40%;
     width: auto;
     height: auto;
 
+  }
+  .container {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  #youtube-screenshots > img {
+      background-color: lightblue;
+      font-size: 20px;
+      margin: 20px;
+      padding: 20px;
   }
