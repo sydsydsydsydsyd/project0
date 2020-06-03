@@ -1,16 +1,14 @@
-#intro {
-  color: green;
+/* NAVIGATION*/
+#nav a {
+  color: #ea865b;
+  background-color: lightblue;
 }
 
+/* ALL PAGES*/
 @media (min-width: 500px) {
     .container {
-      background-color: lightblue;
+      background-color: lightpink;
     }
-}
-@media (max-width: 499px) {
-  #routinelist {
-    font-size: 30px;
-  }
 }
 .container {
   display: flex;
@@ -20,6 +18,9 @@
   }
 }
 
+/*INDEX*/
+
+/*BOOKS*/
 #booktable {
   padding: 5px;
   width: 75%;
@@ -32,3 +33,17 @@ table {
     text-align: center;
   }
 }
+
+/* ROUTINE */
+
+/*YOUTUBE*/
+#youtube-screenshots > img {
+  background-color: lightblue;
+}
+  img.resize {
+    max-width: 40%;
+    max-height: 40%;
+    width: auto;
+    height: auto;
+
+  }
