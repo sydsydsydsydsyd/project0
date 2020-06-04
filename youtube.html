@@ -4,7 +4,7 @@
   <head>
     <title>YOUTUBE</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="stylesheet.scss">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
   </head>
@@ -13,12 +13,21 @@
     <div class="container">
       <div class="row">
         <div class="col-2" id="nav">
-            <a href="index.html">index</a> <br>
-            <a href="books.html">books on my shelf</a> <br>
-            <a href="youtube.html">some youtube comments</a> <br>
-            <a href="routine.html">morning and night routine</a>
+          <a href="index.html">index</a> <br>
+          <a href="books.html">books on my shelf</a> <br>
+          <a href="youtube.html">some youtube comments</a> <br>
+          <a href="routine.html">morning and night routine</a>
         </div>
+
         <div class="col-10" id="youtube-screenshots">
+          <form>
+          <div class="form-group">
+            <label for="formControlRange">how much do you like youtube?</label>
+            <input type="range" class="form-control-range" id="formControlRange">
+          </div>
+          </form>
+          <p class="head-text">
+            youtube is the site where the avant-garde becomes common</p>
           <img class="resize" src="1.png">
           <img class="resize" src="2.png">
           <img class="resize" src="3.png">
@@ -43,7 +52,9 @@
           <img class="resize" src="22.png">
           <img class="resize" src="23.jpg">
         </div>
+
       </div>
+
     </div>
   </body>
 </html>

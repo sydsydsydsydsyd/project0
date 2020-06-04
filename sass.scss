@@ -1,0 +1,61 @@
+/* VARIABLES*/
+$container-background: lightpink;
+$section-background: lightblue;
+
+/* NAVIGATION*/
+#nav a {
+  color: #ea865b;
+  background-color: $section-background;
+}
+
+/* ALL PAGES*/
+@media (min-width: 500px) {
+    .container {
+      background-color: $container-background;
+    }
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*INDEX*/
+#intro {
+  align: center;
+}
+#intro > img {
+  background-color: $section-background;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+}
+/*BOOKS*/
+#booktable {
+  padding: 5px;
+}
+th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 3px;
+  text-align: center;
+}
+
+
+/* ROUTINE */
+#routinelist {
+  background-color: $section-background;
+}
+/*YOUTUBE*/
+img.resize {
+  max-width: 40%;
+  max-height: 40%;
+  width: auto;
+  height: auto;
+}
+
+#youtube-screenshots > img {
+    background-color: $section-background;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+}
